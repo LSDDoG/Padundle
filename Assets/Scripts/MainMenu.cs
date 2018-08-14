@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-	[SerializeField]
-	private GameObject music;
-
 	private AudioSource clickAudio;
 
 	private void Start()
@@ -18,7 +15,6 @@ public class MainMenu : MonoBehaviour
 	public void StartGame()
 	{
 		clickAudio.Play();
-		DontDestroyOnLoad(music);
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene(1);
 	}
 }

@@ -31,14 +31,14 @@ public class GameOver : MonoBehaviour
 		{
 			audioSource.clip = selectAudio;
 			audioSource.Play();
-			SceneManager.LoadSceneAsync(0);
+			SceneManager.LoadScene(1);
 		}
 
 		if (Input.GetKeyUp(KeyCode.Escape))
 		{
 			audioSource.clip = selectAudio;
 			audioSource.Play();
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(0);
 		}
 
 		distance.text = GameManager.instance.Distance + "m";

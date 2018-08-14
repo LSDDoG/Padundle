@@ -186,7 +186,7 @@ public class PaddleController : RaycastController
 
 	void HitSound()
 	{
-		audioSource.pitch = 1.2f + Random.Range(-hitPitchRange, hitPitchRange);
+		audioSource.pitch = 1.5f + Random.Range(-hitPitchRange, hitPitchRange);
 		audioSource.Play();
 	}
 

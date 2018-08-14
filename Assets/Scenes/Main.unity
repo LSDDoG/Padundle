@@ -2004,7 +2004,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7d46f1499b725b447af7da5aea1719a6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3189,7 +3189,6 @@ MonoBehaviour:
   - {fileID: 263301614}
   - {fileID: 411445241}
   - {fileID: 1836874513}
-  spikePlatformPools: []
   maxHeightPoint: {fileID: 330214433}
   maxHeightChange: 3
 --- !u!1 &1322359158
@@ -3472,7 +3471,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3514,7 +3513,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.8
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
